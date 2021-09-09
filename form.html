@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		
+		function f1()
+		{
+			marks=parseInt(document.getElementById("t1").value);
+
+			per=marks/6;
+
+			if(per>=75)
+			{
+				alert("Registration Successful");
+			}
+			else
+			{
+				alert("You are not Eligible for Registration");
+				alert("Your Percentage below from 75%");
+			}
+
+		}
+
+	</script>
+</head>
+<body background="image/back5.jpeg" align="center">
+
+	<font size="7" face="sans-serif" color="white"><p>Registration Form</p></font>
+
+<table  width="60%" align="center">
+<tr>
+<td align="center">
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" placeholder="Enter the Name of Student "></textarea>
+<br>
+<br>
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" placeholder="Enter the Name of Father/Mother"></textarea>
+<br>
+<br>
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" placeholder="Enter the Mobile Number"></textarea>
+<br>
+<br>
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" placeholder="Enter the Email Id "></textarea>
+<br>
+<br>
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" placeholder="Enter the Address "></textarea>
+<br>
+<br>
+<textarea rows="2" cols="40" style="background-color: transparent;color:#fff;face:sans-serif; font-size: 14pt;" id="t1" placeholder="Enter the Mark of Class 10th"></textarea>
+<br>
+<br>
+<br>
+<button style="height:40px; width:120px; font-size: 12pt; background-color: green;color: white;"  onclick="f1()">Apply Now</button>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
